@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; /*tipo de letra - fonte*/
+}
+
+body {
+    background-image: url(imagens/agenda.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding-top: 100px; /*espaçamento entre a caixa e o corpo*/
+}
+
+header {
+    display: flex; /*os elementos ficam um ao lado do outro*/
+    align-items: center; /*itens ficam centralizados na vertical*/
+    margin-bottom: 40px; /*separa o cabeçalho do corpo*/
+}
+
+
+header h1 {
+    font-size: 40px; /*tamanho da letra*/
+    font-weight: bold;
+}
+
+.conteiner {
+    max-width: 960px;
+    width: 100%; /*o container vai estar centralizado mesmo que tenhamos um tela de ate 960px*/
+    margin: 0 auto; /*centraliza na horizontal*/
+}
+
+form {
+    display: flex; /* deixa os itens alinhados*/
+    max-width: 640px; 
+    width: 100%;
+    justify-content: space-between; /*distribui o espaçamento entre os itens*/
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000; /*borda inferior*/
+    padding: 8px; /*espacamento entre os elementos*/
+}
+
+form button {
+    background-color: #012458;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold; /*fonte em negrito*/
+    border: none; /*removendo a borda do botão*/
+    cursor: pointer; /*cursor do mouse com o indicador da mãozinha levantado*/  
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /*rgba é a cor da borda*/
+}
